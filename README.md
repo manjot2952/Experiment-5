@@ -3,7 +3,7 @@
 A simple React application built using Vite that demonstrates:
 
 - Component-based architecture
-- Routing between pages
+- Navigation between pages
 - Loading states
 - Clean dark UI design
 
@@ -18,17 +18,18 @@ A simple React application built using Vite that demonstrates:
 
 ---
 
-## 📂 Project Features
+## 📂 Features
 
 ### 🧑 Profile Page
 - Displays profile image
-- Name and UID
-- List of projects
+- Shows Name and UID
+- Lists projects
+- Navigation links
 
 ### 📊 Dashboard Page
 - Skills section
 - Achievements section
-- Navigation between Profile and Dashboard
+- Loading state simulation
 
 ---
 
@@ -36,25 +37,25 @@ A simple React application built using Vite that demonstrates:
 
 ### 1️⃣ Loading Dashboard
 
-![Loading Dashboard](./screenshots/loading-dashboard.png)
+![Loading Dashboard](./screenshots/Screenshot%202026-02-17%20111355.png)
 
 ---
 
 ### 2️⃣ Dashboard Page
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/Screenshot%202026-02-17%20111408.png)
 
 ---
 
 ### 3️⃣ Loading Profile
 
-![Loading Profile](./screenshots/loading-profile.png)
+![Loading Profile](./screenshots/Screenshot%202026-02-17%20112118.png)
 
 ---
 
 ### 4️⃣ Profile Page
 
-![Profile](./screenshots/profile.png)
+![Profile](./screenshots/Screenshot%202026-02-17%20112128.png)
 
 ---
 
@@ -67,13 +68,13 @@ UID: 23BAI70633
 
 ## 🎯 Achievements
 
-- Solved 550+ questions on LeetCode
+- Solved 550+ problems on LeetCode
 - Built AI ToolKit
 - Developed Zyra AI Assistant
 
 ---
 
-## ▶️ Run Locally
+## ▶️ How to Run Locally
 
 ```bash
 npm install
