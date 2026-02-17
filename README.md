@@ -1,18 +1,11 @@
-# Experiment 5 – React Profile & Dashboard App
+# 🚀 Experiment 5 – React Profile & Dashboard App
 
-This is a simple React application built using Vite.  
-The project demonstrates component-based architecture, routing, and basic UI design.
+A simple React application built using Vite that demonstrates:
 
----
-
-## 🚀 Features
-
-- Profile Page
-- Dashboard Page
-- Navigation between pages
+- Component-based architecture
+- Routing between pages
 - Loading states
-- Clean dark UI theme
-- Organized component structure
+- Clean dark UI design
 
 ---
 
@@ -25,8 +18,17 @@ The project demonstrates component-based architecture, routing, and basic UI des
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Features
 
+### 🧑 Profile Page
+- Displays profile image
+- Name and UID
+- List of projects
+
+### 📊 Dashboard Page
+- Skills section
+- Achievements section
+- Navigation between Profile and Dashboard
 
 ---
 
@@ -34,44 +36,44 @@ The project demonstrates component-based architecture, routing, and basic UI des
 
 ### 1️⃣ Loading Dashboard
 
-![Loading Dashboard](screenshots/loading-dashboard.png)
+![Loading Dashboard](./screenshots/loading-dashboard.png)
 
 ---
 
 ### 2️⃣ Dashboard Page
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-### 3️⃣ Profile Page
+### 3️⃣ Loading Profile
 
-![Profile](screenshots/profile.png)
-
----
-
-### 4️⃣ Loading Profile
-
-![Loading Profile](screenshots/loading-profile.png)
+![Loading Profile](./screenshots/loading-profile.png)
 
 ---
 
-## 🧑‍💻 Author
+### 4️⃣ Profile Page
 
-**Name:** Manjot Singh  
-**UID:** 23BAI70633  
+![Profile](./screenshots/profile.png)
+
+---
+
+## 👨‍💻 Author
+
+**Manjot Singh**  
+UID: 23BAI70633  
 
 ---
 
 ## 🎯 Achievements
 
-- Solved 550+ problems on LeetCode
+- Solved 550+ questions on LeetCode
 - Built AI ToolKit
 - Developed Zyra AI Assistant
 
 ---
 
-## 📌 How to Run Locally
+## ▶️ Run Locally
 
 ```bash
 npm install
