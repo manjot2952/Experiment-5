@@ -1,49 +1,19 @@
-import './App.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { lazy, Suspense } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { lazy, Suspense } from "react";
 
-const Profile = lazy(() => import('./component/Profile'));
-const Dashboard = lazy(() => import('./component/Dashboard'));
+// Lazy load components
+const Home = lazy(() => import("./component/Home"));
+const About = lazy(() => import("./component/About"));
 
 function App() {
   return (
     <BrowserRouter>
-
-      <nav>
-        <Link to="/">Profile</Link> |{" "}
-        <Link to="/dashboard">Dashboard</Link>
-      </nav>
-
-      <Routes>
-
-        <Route
-          path="/"
-          element={
-            <div className="container">
-              <div className="content">
-                <Suspense fallback={<div className="inner-loader">Loading Profile...</div>}>
-                  <Profile />
-                </Suspense>
-              </div>
-            </div>
-          }
-        />
-
-        <Route
-          path="/dashboard"
-          element={
-            <div className="container">
-              <div className="content">
-                <Suspense fallback={<div className="inner-loader">Loading Dashboard...</div>}>
-                  <Dashboard />
-                </Suspense>
-              </div>
-            </div>
-          }
-        />
-
-      </Routes>
-
+      <Suspense fallback={<h2>Loading...</h2>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
