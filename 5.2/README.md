@@ -11,11 +11,11 @@ To implement routing in React using React Router and optimize performance using 
 ---
 
 ## 📚 Objective
-- To understand React Router.
-- To implement multiple routes.
-- To implement Lazy Loading using `React.lazy()`.
-- To display fallback UI using `Suspense`.
-- To improve application performance using code splitting.
+- To understand React Router
+- To implement multiple routes
+- To implement Lazy Loading using `React.lazy()`
+- To display fallback UI using `Suspense`
+- To improve application performance using code splitting
 
 ---
 
@@ -41,22 +41,22 @@ src
 
 ---
 
-## 🔹 Features Implemented
-
-✔ Routing using React Router  
-✔ Lazy Loading using `React.lazy()`  
+## 🔹 Features
+✔ Routing between Home and About pages  
+✔ Lazy Loading using React.lazy()  
 ✔ Suspense fallback loader  
 ✔ Code Splitting  
-✔ Navigation between pages  
+✔ Performance Optimization  
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ Working Explanation
 
 - Components are loaded only when required.
 - `React.lazy()` dynamically imports components.
-- `Suspense` shows a loading message until component loads.
-- Improves performance by reducing initial bundle size.
+- `Suspense` displays a fallback loading UI.
+- Reduces initial bundle size.
+- Improves performance of the application.
 
 ---
 
@@ -64,30 +64,30 @@ src
 
 ## 1️⃣ Loading Screen
 
-![Loading Screen](screenshots/loading.png)
+![Loading Screen](screenshots/Screenshot 2026-02-17 115353.png)
 
 ---
 
 ## 2️⃣ Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/Screenshot 2026-02-17 115402.png)
 
 ---
 
 ## 3️⃣ About Page
 
-![About Page](screenshots/about.png)
+![About Page](screenshots/Screenshot 2026-02-17 123619.png)
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 How to Run
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open:
+Open:
 
 ```
 http://localhost:5173
@@ -96,23 +96,19 @@ http://localhost:5173
 ---
 
 ## 🧠 Learning Outcomes
-
-- Understood client-side routing in React.
-- Learned code splitting using lazy loading.
-- Implemented Suspense for fallback UI.
-- Improved performance using dynamic imports.
-- Gained practical knowledge of React application structure.
+- Learned client-side routing in React
+- Implemented lazy loading
+- Used Suspense for fallback UI
+- Understood code splitting
+- Improved application performance
 
 ---
 
 ## ✅ Result
-
-Successfully implemented React Router with Lazy Loading and Suspense.  
-The application dynamically loads components and displays a fallback loader during component loading.
+Successfully implemented React Router with Lazy Loading and Suspense. The application dynamically loads components and shows a loading screen while components are being fetched.
 
 ---
 
 ## 📖 References
-
-- React Documentation
+- React Official Documentation
 - React Router Documentation
