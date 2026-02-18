@@ -58,7 +58,21 @@ A simple React application built using Vite that demonstrates:
 ![Profile](./screenshots/Screenshot%202026-02-17%20112128.png)
 
 ---
+## 1️⃣ Loading Screen
 
+![Loading Screen](screenshots/Screenshot%202026-02-18%20095655.png)
+
+---
+
+## 2️⃣ Home Page
+
+![Home Page](screenshots/Screenshot%202026-02-18%20095703.png)
+
+---
+
+## 3️⃣ About Page
+
+![About Page](screenshots/Screenshot%202026-02-18%20095719.png)
 ## 👨‍💻 Author
 
 **Manjot Singh**  
