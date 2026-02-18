@@ -10,7 +10,7 @@ To implement routing in React using React Router and optimize performance using 
 
 ---
 
-## 📚 Objective
+## 📚 Objectives
 - To understand React Router
 - To implement multiple routes
 - To implement Lazy Loading using `React.lazy()`
@@ -41,9 +41,10 @@ src
 
 ---
 
-## 🔹 Features
-✔ Routing between Home and About pages  
-✔ Lazy Loading using React.lazy()  
+## 🔹 Features Implemented
+
+✔ Routing between pages  
+✔ Lazy Loading using `React.lazy()`  
 ✔ Suspense fallback loader  
 ✔ Code Splitting  
 ✔ Performance Optimization  
@@ -54,7 +55,7 @@ src
 
 - Components are loaded only when required.
 - `React.lazy()` dynamically imports components.
-- `Suspense` displays a fallback loading UI.
+- `Suspense` shows a loading UI until the component loads.
 - Reduces initial bundle size.
 - Improves performance of the application.
 
@@ -64,30 +65,30 @@ src
 
 ## 1️⃣ Loading Screen
 
-![Loading Screen](screenshots/Screenshot 2026-02-17 115353.png)
+![Loading Screen](screenshots/Screenshot%202026-02-18%20095655.png)
 
 ---
 
 ## 2️⃣ Home Page
 
-![Home Page](screenshots/Screenshot 2026-02-17 115402.png)
+![Home Page](screenshots/Screenshot%202026-02-18%20095703.png)
 
 ---
 
 ## 3️⃣ About Page
 
-![About Page](screenshots/Screenshot 2026-02-17 123619.png)
+![About Page](screenshots/Screenshot%202026-02-18%20095719.png)
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Project
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open:
+Then open:
 
 ```
 http://localhost:5173
@@ -96,19 +97,23 @@ http://localhost:5173
 ---
 
 ## 🧠 Learning Outcomes
+
 - Learned client-side routing in React
 - Implemented lazy loading
 - Used Suspense for fallback UI
-- Understood code splitting
+- Understood dynamic imports
 - Improved application performance
 
 ---
 
 ## ✅ Result
-Successfully implemented React Router with Lazy Loading and Suspense. The application dynamically loads components and shows a loading screen while components are being fetched.
+
+Successfully implemented React Router with Lazy Loading and Suspense.  
+The application dynamically loads components and displays a loading screen while components are being fetched.
 
 ---
 
 ## 📖 References
-- React Official Documentation
-- React Router Documentation
+
+- React Official Documentation  
+- React Router Documentation  
