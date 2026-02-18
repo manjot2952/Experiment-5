@@ -1,12 +1,118 @@
-# React + Vite
+# 🚀 React Router with Lazy Loading & Suspense
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Experiment Title
+Implementation of React Router with Lazy Loading and Suspense.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Aim
+To implement routing in React using React Router and optimize performance using Lazy Loading and Suspense.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Objective
+- To understand React Router.
+- To implement multiple routes.
+- To implement Lazy Loading using `React.lazy()`.
+- To display fallback UI using `Suspense`.
+- To improve application performance using code splitting.
+
+---
+
+## 🛠️ Technologies Used
+- React JS
+- React Router DOM
+- JavaScript (ES6)
+- CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src
+ ├── component
+ │     ├── Home.jsx
+ │     └── About.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── App.css
+```
+
+---
+
+## 🔹 Features Implemented
+
+✔ Routing using React Router  
+✔ Lazy Loading using `React.lazy()`  
+✔ Suspense fallback loader  
+✔ Code Splitting  
+✔ Navigation between pages  
+
+---
+
+## ⚙️ How It Works
+
+- Components are loaded only when required.
+- `React.lazy()` dynamically imports components.
+- `Suspense` shows a loading message until component loads.
+- Improves performance by reducing initial bundle size.
+
+---
+
+# 📸 Screenshots
+
+## 1️⃣ Loading Screen
+
+![Loading Screen](screenshots/loading.png)
+
+---
+
+## 2️⃣ Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 3️⃣ About Page
+
+![About Page](screenshots/about.png)
+
+---
+
+## 🚀 How to Run the Project
+
+```bash
+npm install
+npm run dev
+```
+
+Then open:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+- Understood client-side routing in React.
+- Learned code splitting using lazy loading.
+- Implemented Suspense for fallback UI.
+- Improved performance using dynamic imports.
+- Gained practical knowledge of React application structure.
+
+---
+
+## ✅ Result
+
+Successfully implemented React Router with Lazy Loading and Suspense.  
+The application dynamically loads components and displays a fallback loader during component loading.
+
+---
+
+## 📖 References
+
+- React Documentation
+- React Router Documentation
