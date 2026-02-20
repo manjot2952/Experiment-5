@@ -35,44 +35,46 @@ A simple React application built using Vite that demonstrates:
 
 ## 📸 Screenshots
 
-### 1️⃣ Loading Dashboard
+### 🆕 Main Preview
+![Main Preview](./screenshots/image.png)
 
+---
+
+### 1️⃣ Loading Dashboard
 ![Loading Dashboard](./screenshots/Screenshot%202026-02-17%20111355.png)
 
 ---
 
 ### 2️⃣ Dashboard Page
-
 ![Dashboard](./screenshots/Screenshot%202026-02-17%20111408.png)
 
 ---
 
 ### 3️⃣ Loading Profile
-
 ![Loading Profile](./screenshots/Screenshot%202026-02-17%20112118.png)
 
 ---
 
 ### 4️⃣ Profile Page
-
 ![Profile](./screenshots/Screenshot%202026-02-17%20112128.png)
 
 ---
-## 1️⃣ Loading Screen
 
-![Loading Screen](screenshots/Screenshot%202026-02-18%20095655.png)
-
----
-
-## 2️⃣ Home Page
-
-![Home Page](screenshots/Screenshot%202026-02-18%20095703.png)
+### 5️⃣ Loading Screen
+![Loading Screen](./screenshots/Screenshot%202026-02-18%20095655.png)
 
 ---
 
-## 3️⃣ About Page
+### 6️⃣ Home Page
+![Home Page](./screenshots/Screenshot%202026-02-18%20095703.png)
 
-![About Page](screenshots/Screenshot%202026-02-18%20095719.png)
+---
+
+### 7️⃣ About Page
+![About Page](./screenshots/Screenshot%202026-02-18%20095719.png)
+
+---
+
 ## 👨‍💻 Author
 
 **Manjot Singh**  
