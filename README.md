@@ -36,7 +36,7 @@ A simple React application built using Vite that demonstrates:
 ## 📸 Screenshots
 
 ### 🆕 Main Preview
-![Main Preview](./screenshots/image.png)
+<img src="screenshots/image.png" width="800" />
 
 ---
 
